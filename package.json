@@ -1,0 +1,22 @@
+{
+  "name": "finding-nemo-quiz",
+  "version": "1.0.0",
+  "description": "Finding Nemo — Find the Data: Interactive College Technical Quiz Competition Website",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4",
+    "uuid": "^14.0.3"
+  }
+}
